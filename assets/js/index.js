@@ -72,6 +72,7 @@ function loaded() {
 
 function onDeviceReady() {
     
+
     if (APPType == "@") {
         $("#div_statecity").hide();
     }
