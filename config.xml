@@ -2,7 +2,14 @@
   <name>ULTImed</name>
   <description></description>
   <author href="http://goyalonline.com" email="yashaswi@goyalonline.com">Yashaswi Narkhedkar</author>
+  <content src="index.html"/>     
+
+  <content src="index01.html"/>
+  <content src="ind.html"/>
+  <content src="Retailer.html"/>
+  <content src="SRepresentation.html"/>
   <content src="index.html"/>
+  <content src="terms and condition.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="portrait"/>
   <preference name="target-device" value="universal"/>
