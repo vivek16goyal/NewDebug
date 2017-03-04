@@ -17,7 +17,7 @@
     <script type="text/javascript" src="PushNotification.js"></script>
     <script src="assets/js/push_notification.js"></script>
     <script src="assets/js/index.js"></script>
-    <script src="assets/js/index1.js"></script>
+    
     
     <title>ULTIMED</title>   
     <script src="js/jquery.js"></script>
@@ -65,39 +65,7 @@
         }
     </style>
      <link rel=" stylesheet" href="assets/css/animate.css">
-    <script>
-        
-        document.addEventListener("deviceready", onDeviceReady, true);
-        function onDeviceReady() {
-            try{               
-                $("#8").show()
-                textAnim('8', 'bounceInDown');
-                c = setTimeout(function () {
-                    textAnim('8', 'flip'); 
-                }, 800);
-           
-                a = setTimeout(function () {
-                    $("#LoText").show();
-                    textAnim('LoText', 'bounceInUp');
-                }, 1000);
-
-                b = setTimeout(function () {
-                    window.location = "index01.html";
-                }, 5000);
-            }
-            catch (e) {
-                alert(e.message);
-            }
-        }
-        function textAnim(evt, str) {
-            try {
-                $('#' + evt).addClass(str + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-                    $('#' + evt).removeClass(str + ' animated');                    
-                });
-            } catch (err) {
-            }
-        };
-    </script>
+    
 </head>
 
 <body class="first-main-page font" onload="cliencode_check()" >
